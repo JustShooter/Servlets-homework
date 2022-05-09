@@ -11,61 +11,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="icon" type="image/ico" href="images/img_1.png" >
+    <link rel="stylesheet" href="style.css">
     <title>by.it-academy.web-addData</title>
-    <style>
-        body {
-            background-color: #D0E4F5;
-            border: 2px solid #1C6EA4;
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-position: 0 0;
-        }
-
-        .myButton {
-            color: rgb(255, 255, 255);
-            font-size: 29px;
-            line-height: 29px;
-            padding: 20px;
-            border-radius: 8px;
-            font-family: Georgia, serif;
-            font-weight: normal;
-            text-decoration: none;
-            font-style: normal;
-            font-variant: normal;
-            text-transform: none;
-            background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
-            box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
-            border: 2px solid rgb(28, 110, 164);
-            display: inline-block;
-            position: relative;
-        }
-
-        .myButton:hover {
-            background: #1C6EA4;
-        }
-
-        .myButton:active {
-            background: #144E75;
-        }
-
-        img {
-            width: 100px;
-            height: 100px;
-            position: relative;
-            animation-name: example;
-            animation-duration: 3s;
-            animation-fill-mode: forwards;
-        }
-
-        @keyframes example {
-            from {
-                top: -200px;
-            }
-            to {
-                top: 10px;
-            }
-        }
-    </style>
 </head>
 <body>
 <img style="
