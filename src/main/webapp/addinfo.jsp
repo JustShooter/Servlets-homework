@@ -49,7 +49,6 @@ padding-left: 80px"
     </fieldset>
     <input type="submit" class="myButton" value="Вставить данные в БД" style="left: 10%"/>
 
-    <h5>* - Обязательные поля</h5>
 </form>
 </body>
 <BR>

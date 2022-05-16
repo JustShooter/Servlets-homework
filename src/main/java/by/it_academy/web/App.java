@@ -11,11 +11,12 @@ public class App {
         EntityManager entityManager = HibernateUtil.getEntityManager();
 
         entityManager.getTransaction().begin();
-        entityManager.persist(Student.builder()
+        Student student = Student.builder()
                 .firstName("John")
                 .lastName("Smith")
                 .birthDay(Date.valueOf("1980-09-26"))
-                .build());
+                .build();
+        entityManager.persist(student);
         entityManager.persist(Student.builder()
                 .firstName("Will")
                 .lastName("Jonson")
@@ -39,6 +40,5 @@ public class App {
         entityManager.getTransaction().commit();
         entityManager.close();
         HibernateUtil.close();
-
     }
 }

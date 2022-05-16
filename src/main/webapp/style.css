@@ -83,7 +83,7 @@ table.blueTable td, table.blueTable th {
 }
 
 table.blueTable tbody td {
-    font-size: 13px;
+    font-size: 20px;
 }
 
 table.blueTable tr:nth-child(even) {
@@ -99,7 +99,7 @@ table.blueTable thead {
 }
 
 table.blueTable thead th {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: #FFFFFF;
     text-align: center;
@@ -111,7 +111,7 @@ table.blueTable thead th:first-child {
 }
 
 table.blueTable tfoot {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
     background: #D0E4F5;
@@ -122,7 +122,7 @@ table.blueTable tfoot {
 }
 
 table.blueTable tfoot td {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 table.blueTable tfoot .links {

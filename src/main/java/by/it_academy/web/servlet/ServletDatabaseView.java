@@ -15,12 +15,17 @@ import java.util.List;
 @WebServlet(name = "getInfo", value = "/getInfo")
 public class ServletDatabaseView extends HttpServlet {
     private final EntityManager entityManager = HibernateUtil.getEntityManager();
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         @SuppressWarnings("unchecked")
         List<Student> studentList = entityManager.createQuery("from "
                 + Student.class.getName()).getResultList();
-        req.setAttribute("studentList", studentList);
-        req.getRequestDispatcher("viewData.jsp").forward(req, resp);
+        req.setAttribute("studentList", studentList);;
+        if (req.getParameter("viewjsp") != null) {
+            req.getRequestDispatcher("viewData.jsp").forward(req, resp);
+        } else {
+            req.getRequestDispatcher("viewDataJSTL.jsp").forward(req, resp);
+        }
     }
 }

@@ -17,12 +17,17 @@
     <form action="addinfo.jsp">
         <input type="submit" class="myButton" value="Вставка данных в БД" style="left: 6%"/>
     </form>
-    </p>
+
     <p>
     <form action="getInfo" method="get">
-        <input type="submit" class="myButton" value="Чтение всех данных из БД" style="left: 10%"/>
+        <input type="submit" class="myButton" value="Чтение всех данных из БД JSP"  name="viewjsp" style="left: 10%"/>
     </form>
-    </p>
+    <p>
+
+    <form action="getInfo" method="get">
+        <input type="submit" class="myButton" value="Чтение всех данных из БД JSTL" name="viewjstl" style="left: 10%"/>
+    </form>
+<p>
 </div>
 </body>
 </html>

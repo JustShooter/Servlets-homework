@@ -62,5 +62,5 @@ padding-left: 80px"
 <BR>
 <p><form action="index.jsp">
     <input type="submit" class="myButton" value="Возврат на главную страницу" style="left: 20%"/>
-</form></p>
+</form>
 </html>
